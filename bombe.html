@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+  <meta charset="utf-8"/>
+   <link rel="stylesheet" href="style.css">
+   <script src="bombe.js"></script>
+   <title>Bombe</title>  
+ </head>
+  
+ <body>
+ 
+
+
+<div class="box" id="Übersicht">
+ <div style="float:left" class="box2" id="box2">
+  <kabel class="kabel1"  id="kabel1" onclick="kabeltrennengelb();berechnen('1')"></kabel>
+  <kabel class="kabel2"  id="kabel2" onclick="kabeltrennengelb();berechnen('2')"></kabel>
+  <kabel class="kabel3" id="kabel3" onclick="kabeltrennengrün();berechnen('3')"></kabel>
+  <kabel class="kabel4" id="kabel4" onclick="kabeltrennenblau();berechnen('4')"></kabel>
+  <kabel class="kabel5"  id="kabel5" onclick="kabeltrennenschwarz();berechnen('5')"></kabel>
+  <span class="Hindernis" id="Hindernis"></span>
+  <br><br><br><br><br><br>
+ </div>
+  <br>
+
+ <div style="float:right"class="box3" id="box 3 ">
+  <p align="center" class="countdown" id="counter"></p>
+  <br><br>
+	<p>Modellnummer</p>
+	<p id="Modellnummer"></p>
+	<p id="Tipp"></p>
+ </div>
+</div>
+
+<div id="Hintergrundmusik">
+ <audio id="audio" controls autoplay hidden>
+  <source src="Audio/bombe.mp3" type="audio/mp3"> 
+ </audio>
+</div>
+
+
+
+
+ </body>
+</html>

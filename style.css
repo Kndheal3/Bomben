@@ -1,0 +1,199 @@
+/* Inhaltverzeichnes */
+/* -button- Verlinkung zur nächsten Bombe */
+/* -button2- zum schließen */
+/* -Box*/
+/* -box bombenminispiel */
+/* kabel*/
+/*farben*/
+/*countdown*/
+/*kabel*/
+
+
+
+.button{
+	padding: 5% 5%;
+        background-color: #333333;
+        color: #ffffff;
+	Font-Family: ubuntu;
+        border: 0.1em solid #ffffff;
+	border-radius: 10%;
+        font-size:2em;
+        user-select: none;
+        text-decoration: none;
+	display: inline-block
+    }
+
+.button:hover{
+	background-color:#c3cbd0;
+	color:#000000;
+	border: 0.1em solid #000000;
+}
+
+.button2{
+	padding: 0.3em 2.4em;
+        background-color: #9c3630;
+        color: #ffffff;
+	font-family: ubuntu;
+        border: solid 1px #333333;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        user-select: none;
+        text-decoration: none;
+	display: inline-block
+
+}
+
+.button2:hover{
+	background-color:#cccccc;
+	color: #000000;
+}
+
+
+.box {
+  text-align: center;
+    padding-top: 2em;
+	padding-left: 1em;
+	padding-right:1em;
+	height:25em;
+    border-top: 1em solid #9c3630;
+    border-left:0.1em solid #9c3630;
+    border-right:0.1em solid #9c3630;
+    border-bottom: 0.1em solid #9c3630;
+	background-image: url("Bilder/bombe.png");
+    color: #ffffff;
+    font-family: ubuntu;
+    margin: 10% 20%;
+    position:relative;
+}
+
+.box2{
+    	text-align: center;
+	padding: 0em;
+	height: 20em;
+	position:fixed;
+	border-top:0.05em solid #9c3630;
+	border-left:0.05em solid #9c3630;
+	border-right:0.05em solid #9c3630;
+	border-bottom: 0.05em solid #9c3630;
+	width:66%;
+	background-color: transparent;
+	color: #ffffff;
+	font-family: ubuntu;
+	position:relative;
+}
+
+.box3{
+    	text-align: center;
+	padding: 0em;
+	height: 20em;
+	position:fixed;
+	border-top:0.05em solid #9c3630;
+	border-left:0.05em solid #9c3630;
+	border-right:0.05em solid #9c3630;
+	border-bottom: 0.05em solid #9c3630;
+	width:33%;
+	background-color: transparent;
+	color: #ffffff;
+	font-family: ubuntu;
+	position:relative;
+	top:-18.75px;
+}
+
+.kabel1{
+	text-align: center;
+	width: 5%;
+	height:100%;
+	left:10%;
+	background-image: url('Bilder/rot.png');
+	color: #ffffff;
+	font-family: ubuntu;
+	position:absolute;
+	top:0px;
+}
+.kabel1:hover{
+	background-color:#8c2610
+}
+
+.kabel2{
+	text-align: center;
+	width: 5%;
+	height:100%;
+	left:30%;
+	background-image: url('Bilder/gelb.png');
+	color: #ffffff;
+	font-family: ubuntu;
+	position:absolute;
+	top:0px;
+}
+.kabel2:hover{
+	background-color:#BAB32B;
+}
+
+
+.kabel3{
+	text-align: center;
+	width: 5%;
+	height: 100%;
+	left: 50%;
+	background-image: url('Bilder/grün.png');
+	color: #ffffff;
+	font-family: ubuntu;
+	position:absolute;
+	top:0px;
+}
+.kabel3:hover{
+	background-color: #239B1F;
+}
+
+
+.kabel4{
+	text-align: center;
+	width: 5%;
+	height: 100%;
+	left: 70%;
+	background-image: url('Bilder/blau.png');
+	color: #ffffff;
+	font-family: ubuntu;
+	position:absolute;
+	top:0px;
+}
+.kabel4:hover{
+	background-color: #17148F;
+}
+
+.kabel5{
+	text-align: center;
+	width: 5%;
+	height: 100%;
+	left: 90%;
+	background-image: url('Bilder/schwarz.png');
+	color: #ffffff;
+	font-family: ubuntu;
+	position:absolute;
+	top:0px;
+}
+.kabel5:hover{
+	background-color: #111111;
+}
+
+
+.countdown{
+    
+   
+    
+
+
+}
+
+kabel{
+	float:left;
+}
+
+#Hindernis {
+	display: block;
+	background-image:url('Bilder/index.jpg');
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid #000000;
+	position:absolute;
+}
